@@ -8,14 +8,14 @@ export default function Footer() {
         <div>
           <a href="/" className="flex items-center space-x-4 mb-6">
             <img
-              src="/images/logo.svg"
+              src="/images/logo.png"
               alt="Pulse Technologies Logo"
               className="h-12 w-12"
               loading="lazy"
             />
             <div>
               <h2 className="font-montserrat text-teal-600 dark:text-teal-400 text-3xl font-extrabold tracking-tight">
-                Pulse Technologies
+                Pulse Group
               </h2>
               <p className="text-sm text-gray-500 dark:text-gray-400 mt-1 font-light">
                 Build your dreams
@@ -23,8 +23,8 @@ export default function Footer() {
             </div>
           </a>
           <p className="text-sm text-gray-600 dark:text-gray-400 max-w-xs leading-relaxed">
-            PULSE Technologies SARL <br />
-            Innovation et expertise dans la construction, l’énergie et les technologies.
+            PULSE Group SARL <br />
+           Build.
           </p>
         </div>
 
@@ -180,7 +180,7 @@ export default function Footer() {
       </div>
 
       <div className="border-t border-gray-200 dark:border-gray-800 text-center py-5 text-xs text-gray-500 dark:text-gray-400 select-none">
-        © {new Date().getFullYear()} PULSE DRC SARL — Tous droits réservés.
+        © {new Date().getFullYear()} PULSE Group SARL — Tous droits réservés.
       </div>
     </footer>
   );
